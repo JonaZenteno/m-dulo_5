@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment_pregunta1">
+
+    <CheckBox
+        android:id="@+id/checkbox_negro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Negro" />
+
+    <CheckBox
+        android:id="@+id/checkbox_azul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azul Cobalto" />
+
+    <CheckBox
+        android:id="@+id/checkbox_verde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verde Oliva" />
+
+    <CheckBox
+        android:id="@+id/checkbox_ambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ámbar" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+</LinearLayout>
